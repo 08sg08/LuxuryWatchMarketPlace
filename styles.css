@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.watch-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.watch-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.watch-card:hover {
+  transform: scale(1.02);
+}
+
+.watch-logo {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.in-stock {
+  color: green;
+}
+
+.out-stock {
+  color: red;
+}
+
+.deal-tag {
+  color: orange;
+  font-weight: bold;
+}
